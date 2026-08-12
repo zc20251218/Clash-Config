@@ -109,7 +109,7 @@ proxy-groups:
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: YouTube, <<: *pr, icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/youtube.png"}
   - {name: Google, <<: *pr, icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/google.png"}
-  - {name: ChatGPT, <<: *pr, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png"}
+  - {name: AI, <<: *pr, icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png"}
   - {name: GitHub, <<: *pr, icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/github.png"}
   - {name: Telegram, <<: *pr, icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/telegram.png"}
   - {name: 🎯 直连, type: select, proxies: [直连, 🚀 默认代理]}
